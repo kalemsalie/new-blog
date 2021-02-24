@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+   
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="blogs.css" />
+    
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+      <img src="..." alt="Logo" class="logo" />
+      <ul class="nav-links" id="nav-links">
+        <li class="nav-link"><a href="./index.html">Home</a></li>
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="./blogs.html">Blogs</a></li>
+        <li class="nav-link"><a href="./register.html">Register</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleNav()">Hamburger</button>
+    </nav>
+    <!-- Landing Page Section -->
+    <main class="main">
+
+    <header class="landing">
+      <h1>title</h1>
+      <button>See More</button>
+    </header>
+    <section class="sneakers">
+
+        <h1>SNEAKERS</h1>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+             
+              <img src="shoe1.jpg" style="width:70%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+             
+              <img src="shoe2.png" style="width:70%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+            
+              <img src="shoe3.jpg" style="width:70%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+     
+    </section>
+
+  </main>
+
+  <section id="blogs" >
+
+    <h1>BLOG</h1>
+
+    <div class="about" id="about">
+
+    <div class="blog_text">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          pariatur recusandae saepe placeat ipsam vitae. Suscipit, ducimus
+          adipisci unde porro earum, repudiandae ipsa autem nobis laborum
+          dolores non! Deleniti, quae!
+        </p>
+        <button>See More</button>
+      </div>
+
+      
+      <div>
+      <img src="https://picsum.photos/600?random=2" alt="Img" />
+    </div>
+
+    <div class="blog_text">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          pariatur recusandae saepe placeat ipsam vitae. Suscipit, ducimus
+          adipisci unde porro earum, repudiandae ipsa autem nobis laborum
+          dolores non! Deleniti, quae!
+        </p>
+        <button>See More</button>
+      </div>
+
+      
+      <div>
+      <img src="https://picsum.photos/600?random=2" alt="Img" />
+    </div>
+
+    <div class="blog_text">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          pariatur recusandae saepe placeat ipsam vitae. Suscipit, ducimus
+          adipisci unde porro earum, repudiandae ipsa autem nobis laborum
+          dolores non! Deleniti, quae!
+        </p>
+        <button>See More</button>
+      </div>
+
+      
+      <div>
+      <img src="https://picsum.photos/600?random=2" alt="Img" />
+    </div>
+
+    <div class="blog_text">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          pariatur recusandae saepe placeat ipsam vitae. Suscipit, ducimus
+          adipisci unde porro earum, repudiandae ipsa autem nobis laborum
+          dolores non! Deleniti, quae!
+        </p>
+        <button>See More</button>
+      </div>
+
+      
+      <div>
+      <img src="https://picsum.photos/600?random=2" alt="Img" />
+    </div>
+
+</div>
+
+
+
+
+  </section>
+  <script src="landing.js"></script>
+  </body>

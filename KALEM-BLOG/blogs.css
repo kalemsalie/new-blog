@@ -1,0 +1,50 @@
+.about {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .about > div,
+  .about > img {
+    
+    width: 50%;
+    border: solid;
+   
+  }
+
+  .blog_text{
+      border: solid;
+      border-color: black;
+  }
+  
+  .about > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    
+    
+  }
+  /* Media query to change display options of about section */
+  @media screen and (max-width: 768px) {
+    .about {
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  
+    .about > div,
+    .about > img {
+      width: 100%;
+    }
+  
+    .about > div:nth-child(odd) {
+      background-color: #e9c46a;
+    }
+  }
+  
+
+#blogs{
+    min-height: 100vh;
+}
