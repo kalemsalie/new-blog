@@ -51,6 +51,10 @@ body {
   color: whitesmoke;
 }
 
+.header-text h4 {
+  color: whitesmoke;
+}
+
 /* feature */
 .feature img {
   width: 100%;
